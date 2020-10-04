@@ -1,0 +1,10 @@
+{
+    "temp_files": true,
+    "default_output_path": "Output",
+    "default_temp_path": "Output/temp",
+    "batch_files_max_size": -1,
+    "send_mail": true,
+    "screen_results": false,
+    "config": "config.json",
+    "delete_temp_folder" : false
+}

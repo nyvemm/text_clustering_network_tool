@@ -1,0 +1,175 @@
+{
+    "config": [
+        {
+            "algorithm": "Label Propagation",
+            "max_iterations": 10,
+            "network_type": "KNN",
+            "proximity_measure": "Cosine",
+            "number_of_neighbours": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25
+            ]
+        },
+	{
+	   "algorithm": "Asynchronous Label Propagation",
+            "weight": false,
+            "seed": 10,
+            "max_iterations": 10,
+            "network_type": "KNN",
+            "proximity_measure": "Cosine",
+            "number_of_neighbours": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25
+            ]
+	},
+        {
+            "algorithm": "Asynchronous Label Propagation",
+            "weight": true,
+            "seed": 10,
+            "max_iterations": 10,
+            "network_type": "KNN",
+            "proximity_measure": "Cosine",
+            "number_of_neighbours": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25
+            ]
+        },
+        {
+            "algorithm": "Greedy Modularity",
+            "weight": false,
+            "max_iterations": 10,
+            "network_type": "KNN",
+            "proximity_measure": "Cosine",
+            "number_of_neighbours": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25
+            ]
+        },
+        {
+            "algorithm": "Greedy Modularity",
+            "weight": true,
+            "max_iterations": 10,
+            "network_type": "KNN",
+            "proximity_measure": "Cosine",
+            "number_of_neighbours": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25
+            ]
+        },
+        {
+            "algorithm": "Girvan Newman",
+            "most_valuable_edge": null,
+            "max_iterations": 10,
+            "network_type": "KNN",
+            "proximity_measure": "Cosine",
+            "number_of_neighbours": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25
+            ]
+        },
+        {
+            "algorithm": "Edge Betweenness Centrality",
+            "normalized": true,
+            "weight": false,
+            "max_iterations": 10,
+            "network_type": "KNN",
+            "proximity_measure": "Cosine",
+            "number_of_neighbours": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25
+            ]
+        },
+        {
+            "algorithm": "Edge Betweenness Centrality",
+            "normalized": true,
+            "weight": true,
+            "max_iterations": 10,
+            "network_type": "KNN",
+            "proximity_measure": "Cosine",
+            "number_of_neighbours": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25
+            ]
+        }
+    ]
+}
