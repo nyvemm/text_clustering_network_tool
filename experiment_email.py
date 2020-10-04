@@ -8,9 +8,9 @@ from email.mime.text import MIMEText
 def sendEmail(sender, basename, path):
     port = 587  # For starttls
     smtp_server = "smtp.gmail.com"
-    sender_email = "experiment.manager.tct@gmail.com"
-    receiver_email = "joaovictorsawada@gmail.com"
-    password = "aq!sw@de#"
+    sender_email = "sendmail@gmail.com"
+    receiver_email = "receivermail@gmail.com"
+    password = "somepassword"
     
     stats = stats_analyser.postprocessing(path)
     msg = MIMEMultipart('alternative')
