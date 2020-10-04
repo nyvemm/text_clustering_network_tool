@@ -25,7 +25,7 @@ scikit-learn      0.23.2
 
 # Datasets
 ---------
-For the experimental evaluations, we used 21 text collections from different domains, these datasets are available at: [https://github.com/ragero/text-collections/tree/master/Sequence_of_words_CSV](Sequence of words).
+For the experimental evaluations, we used 21 text collections from different domains, these datasets are available at: [Sequence of words](https://github.com/ragero/text-collections/tree/master/Sequence_of_words_CSV).
 
 # Options
 ---------
