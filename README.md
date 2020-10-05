@@ -43,8 +43,7 @@ batch_files_max_size        INT         defines a maximum file size to be proces
 send_mail                   BOOL        defines if the e-mail will be sent after the execution of an experiment
 screen_results              BOOL        defines whether the results will be displayed in the output console
 config                      STR         defines the default configuration file that defines the algorithms and their parameters to be executed
-delete_temp_folder          BOOL        defines if the temporary files folder will be deleted after the experiments are finished
-     
+delete_temp_folder          BOOL        defines if the temporary files folder will be deleted after the experiments are finished 
 ```
 
 Each configuration file receives a JSON file containing the algorithms and parameters to be executed and provides the following adjustment options.
