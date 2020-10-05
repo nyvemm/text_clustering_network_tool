@@ -28,7 +28,8 @@ For the experimental evaluations, we used 21 text collections from different dom
 The cluster model is handled by the **tct.py** script which provides the following command line arguments.
 
 ```
-  --filename        STR        directory of the CSV file to be processed       
+  --filename        STR        path to the CSV file to be processed       
+  --dir             STR        path to a folder where to process CSV files in batch
 ```
 
 ## Settings file
