@@ -63,7 +63,7 @@ For more specific algorithm parameters, the standard parameters of the [NetworkX
 
 The results can be found at [Clustering Algorihms Data](https://nyvemm.github.io/results_clustering_algorithm_network/csv/table.html). For more information, how the methodology used to obtain these results is found in the article.
 
-> Label Propagation in Networks for Text Clustering. Sawada and Rossi, 2018 [[Paper]](https://nyvemm.github.io/results_clustering_algorithm_network).
+> Propagação de Rótulos em Redes para o Agrupamento de Textos. Sawada and Rossi, 2020 [[Paper]](https://nyvemm.github.io/results_clustering_algorithm_network).
 
 # Examples
 
