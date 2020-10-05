@@ -1,7 +1,6 @@
 This is a framework of algorithms for detecting communities in text. It was implemented in Python using the [NetworkX](https://networkx.github.io/) and [scikit-learn](https://scikit-learn.org/) libraries.
 
 # Overview
------------
 The major features of this *framework* include the:
 
 * **Implementation of community detection algorithms**
@@ -13,7 +12,6 @@ The major features of this *framework* include the:
 * **Sending e-mails to indicate the end of processing**
 
 # Requeriments
------------
 
 The codebase is implemented in Python 3.7.9 (64-bit). Package versions used for development are just below.
 ```
@@ -24,11 +22,9 @@ scikit-learn      0.23.2
 ```
 
 # Datasets
----------
 For the experimental evaluations, we used 21 text collections from different domains, these datasets are available at: [Sequence of words](https://github.com/ragero/text-collections/tree/master/Sequence_of_words_CSV).
 
 # Options
----------
 The cluster model is handled by the **tct.py** script which provides the following command line arguments.
 
 ```
@@ -64,7 +60,6 @@ max_iterations             INT        defines the maximum number of iterations o
 For more specific algorithm parameters, the standard parameters of the [NetworkX](https://networkx.github.io/).
 
 # Results
--------
 
 The results can be found at [Clustering Algorihms](https://nyvemm.github.io/results_clustering_algorithm_network/csv/table.html). For more information, how the methodology used to obtain these results is found in the article.
 
