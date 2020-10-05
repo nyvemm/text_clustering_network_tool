@@ -67,8 +67,6 @@ The results can be found at [Clustering Algorihms](https://nyvemm.github.io/resu
 
 # Examples
 
------
-
 Here is an example of using the framework to process a text collection:
 
 ```sh
