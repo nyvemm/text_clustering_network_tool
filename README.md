@@ -18,7 +18,7 @@ The codebase is implemented in Python 3.7.9 (64-bit). Package versions used for 
 networkx          2.5
 numpy             1.19.0
 pandas            1.1.2
-scikit-learn      0.23.2
+sklearn           0.23.2
 ```
 
 # Datasets
