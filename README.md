@@ -54,7 +54,7 @@ network_type               STR        defines the type of networks to be generat
 proximity_measure          STR        defines the measurement of distances used in the kNN network
 number_of_neighbours       LIST       defines a list of k values to be executed on the k-NN network
 algorithm                  STR        defines the name of the algorithm to be executed
-weight                     BOOL        defines if the algorithm used will include the weights of each network relation
+weight                     BOOL       defines if the algorithm used will include the weights of each network relation
 max_iterations             INT        defines the maximum number of iterations of each algorithm to be executed
 ```
 For more specific algorithm parameters, the standard parameters of the [NetworkX](https://networkx.github.io/).
