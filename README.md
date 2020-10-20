@@ -51,7 +51,7 @@ Each configuration file receives a JSON file containing the algorithms and param
 
 ```
 network_type               STR        defines the type of networks to be generated
-proximity_measure          STR        defines the measurement of distances used in the kNN network
+proximity_measure          STR        defines the measurement of distances used in the k-NN network
 number_of_neighbours       LIST       defines a list of k values to be executed on the k-NN network
 algorithm                  STR        defines the name of the algorithm to be executed
 weight                     BOOL       defines if the algorithm used will include the weights of each network relation
